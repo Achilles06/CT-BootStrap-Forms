@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stacked Form Layout with Bootstrap</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+
+    <!-- Task 3: Stacked Form Layout -->
+    <form>
+      <div class="mb-3">
+        <label for="stackedFormName" class="form-label">Name</label>
+        <input type="text" class="form-control" id="stackedFormName" placeholder="Enter your name">
+      </div>
+      <div class="mb-3">
+        <label for="stackedFormEmail" class="form-label">Email</label>
+        <input type="email" class="form-control" id="stackedFormEmail" placeholder="Enter your email">
+      </div>
+      <div class="mb-3">
+        <label for="stackedFormPhone" class="form-label">Phone Number</label>
+        <input type="tel" class="form-control" id="stackedFormPhone" placeholder="Enter your phone number">
+      </div>
+      <div class="mb-3">
+        <label for="stackedFormMessage" class="form-label">Message</label>
+        <textarea class="form-control" id="stackedFormMessage" rows="4" placeholder="Enter your message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
